@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    background-image: url(./../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    font-family: "Pacifico", cursive;
+}
+button {
+    padding: 8px;
+    background-color: rgba(117, 117, 235, 0.6);
+    color:rgb(40, 63, 60);
+    font-size:25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: "Kaushan Script", cursive;
+}
+.content{
+    background-color: rgba(152, 164, 175, 0.623);
+    width: fit-content;
+}
+p{
+    font-size: 35px;
+}
+#quoteOutput{
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    color: blue;
+    width: fit-content;
+    
+}
+#authorOutput{
+    display: inline;
+    font-family: "Pacifico", cursive;
+    font-size:20px;
+}
+button:hover{
+    background-color: rgba(15, 15, 20, 0.685);
+    color: black;
+}
